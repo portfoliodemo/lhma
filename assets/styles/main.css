@@ -118,9 +118,9 @@ select {
 /*  ----- General -----  */
 
 /* Visualize every element with a white box - debugging */
-/* * {
+* {
     outline: 1px solid mediumblue !important;
-} */
+}
 
 /* body.scroll-lock {
     overflow: hidden;
@@ -147,7 +147,7 @@ header h1 {
 .company-logo-mini {
     display: flex;
     justify-content: center;
-    width: 7%;
+    width: 25%;
     /* min-width: 10%; */
     /* width: 10%; */
     /* min-width: 5%; */
@@ -225,6 +225,10 @@ ul li a {
     color: #fff;
 }
 
+.navbar .container-fluid {
+    justify-content: space-around;
+}
+
 /* --- Section Styling --- */
 .diagonal {
     position: relative;
@@ -274,14 +278,14 @@ ul li a {
     /* margin-top: 2em; */
     padding: 1rem 5rem;
     font-family: var(--font-family-roboto);
-    background-color: rgba(49, 31, 211, 0.788);
-    color: rgba(253, 253, 253, 0.925);
+    /* background-color: rgba(49, 31, 211, 0.788); */
+    /* color: rgba(253, 253, 253, 0.925); */
 }
 
 .intro-header {
     border-bottom-width: 0.25em;
     border-bottom-style: solid;
-    border-bottom-color: #fff;
+    /* border-bottom-color: #fff; */
     /* border-bottom-color:rgba(49, 31, 211, 0.932); */
 }
 
@@ -292,12 +296,12 @@ ul li a {
 }
 
 .introduction p {
-    color: #fff;
+    /* color: #fff; */
     max-width: 50rem;
 }
 
-.introduction .intro-fig, .resources .intro-fig {
-    width: 50%;
+.our-philosophy .intro-fig, .resources .intro-fig {
+    width: 40%;
     box-shadow: 0.25em 0.5em 0.5em #fff;
     border-radius: 1em;
     margin: 1rem;
@@ -311,18 +315,18 @@ ul li a {
     /* text-decoration: underline; */
 }
 
-.introduction .intro-fig img, .resources .intro-fig img {
+.our-philosophy .intro-fig img, .resources .intro-fig img {
     border-radius: 1em;
 }
 
-.introduction .icon-carousel {
+.our-philosophy .icon-carousel {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 3rem;
 }
 
-.introduction .icon-carousel figure {
+.our-philosophy .icon-carousel figure {
     min-width: 5rem;
 }
 
@@ -336,19 +340,19 @@ ul li a {
     /* margin-top: 2em; */
     padding: 1rem 5rem;
     font-family: var(--font-family-roboto);
-    background-color: rgba(49, 31, 211, 0.788);
-    color: rgba(253, 253, 253, 0.925);
+    /* background-color: rgba(49, 31, 211, 0.788); */
+    /* color: rgba(253, 253, 253, 0.925); */
 }
 
 .philosophy-header {
     border-bottom-width: 0.25em;
     border-bottom-style: solid;
-    border-bottom-color: #fff;
+    /* border-bottom-color: #fff; */
     /* border-bottom-color:rgba(49, 31, 211, 0.932); */
 }
 
 .our-philosophy p {
-    color: #fff;
+    /* color: #fff; */
     max-width: 50rem;
 }
 
@@ -357,7 +361,7 @@ ul li a {
 }
 
 a.montessori-link {
-    color: yellow;
+    /* color: yellow; */
     text-decoration: none;
 }
 
@@ -369,22 +373,22 @@ a.montessori-link {
     gap: var(--gap, 1.75rem);
     padding: 1rem 5rem;
     font-family: var(--font-family-roboto);
-    background-color: rgba(49, 31, 211, 0.788);
-    color: rgba(253, 253, 253, 0.925);
+    /* background-color: rgba(49, 31, 211, 0.788); */
+    /* color: rgba(253, 253, 253, 0.925); */
 }
 
 .locations h2 {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     border-bottom-width: 0.125em;
     border-bottom-style: solid;
-    border-bottom-color: #fff;
+    /* border-bottom-color: #fff; */
 }
 
 .locations h3 {
     align-self: center;
     border-bottom-width: 0.06em;
     border-bottom-style: solid;
-    border-bottom-color: #fff;
+    /* border-bottom-color: #fff; */
 }
 
 .calgary-location {
@@ -395,8 +399,16 @@ a.montessori-link {
     /* align-items: center; */
 }
 
+.calgary-location h4, .okotoks-location h4 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+    border-bottom-width: 0.125em;
+    border-bottom-style: groove;
+    border-bottom-color: rgba(49, 31, 211, 0.932);
+}
+
 .calgary-location a {
-    color: #fff;
+    /* color: #fff; */
     text-decoration: none;
 }
 
@@ -409,13 +421,13 @@ a.montessori-link {
 }
 
 .okotoks-location a {
-    color: #fff;
+    /* color: #fff; */
     text-decoration: none;
 }
 
-.calgary-location h3, .okotoks-location h3 {
+/* .calgary-location h3, .okotoks-location h3 {
     font-size: 1.25rem;
-}
+} */
 
 .calgary-location p, .okotoks-location p {
     font-size: 1.125rem;
@@ -423,8 +435,9 @@ a.montessori-link {
 
 .location-map {
     display: flex;
+    box-shadow: 0.25em 0.5em 0.5em rgba(49, 31, 211, 0.788);
     border-radius: 1rem;
-    box-shadow: 0.25em 0.5em 0.5em #fff;
+    /* box-shadow: 0.25em 0.5em 0.5em #fff; */
     margin: 1rem 0;
 }
 
