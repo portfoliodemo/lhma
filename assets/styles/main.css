@@ -323,11 +323,11 @@ ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 1.5rem;
 }
 
 .our-philosophy .icon-carousel figure {
-    min-width: 5rem;
+    width: 5rem;
 }
 
 /* --- Philosophy & Mission Statement Section --- */
@@ -404,7 +404,7 @@ a.montessori-link {
     margin-bottom: 0.25rem;
     border-bottom-width: 0.125em;
     border-bottom-style: groove;
-    border-bottom-color: rgba(49, 31, 211, 0.932);
+    /* border-bottom-color: rgba(49, 31, 211, 0.932); */
 }
 
 .calgary-location a {
@@ -507,9 +507,9 @@ a.contact-btn:hover {
     justify-content: center;
     gap: 1rem;
     /* align-items: center; */
-    background-color: rgba(49, 31, 211, 0.788);
+    /* background-color: rgba(49, 31, 211, 0.788); */
     font-family: var(--font-family-roboto);
-    color: #fff;
+    /* color: #fff; */
     padding: 2rem 1rem;
 }
 
