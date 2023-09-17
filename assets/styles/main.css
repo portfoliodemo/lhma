@@ -118,9 +118,9 @@ select {
 /*  ----- General -----  */
 
 /* Visualize every element with a white box - debugging */
-* {
+/* * {
     outline: 1px solid mediumblue !important;
-}
+} */
 
 /* body.scroll-lock {
     overflow: hidden;
