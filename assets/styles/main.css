@@ -248,12 +248,13 @@ ul li a {
 .hero {
     display: flex;
     justify-content: center;
-    /* margin-top: 3rem; */
+    margin-top: 1rem;
     padding: 2em 0;
     background-color: #fff;
     /* background-image: url('../images/digital-sunrise.png'); */
     /* background-image: url("../images/digital-sunrise-cropped.png"); */
-    background-image: url('../images/painted-hands-cirlce.png');
+    /* background-image: url('../images/painted-hands-cirlce.png'); */
+    background-image: url('../images/grass-clouds-blue-sky.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     /* border-bottom-right-radius: 2em; */
@@ -261,11 +262,13 @@ ul li a {
 
 .hero figure {
     width: 40%;
+    box-shadow: 0.25em 0.5em 0.5em grey;
+    border-radius: 1em;
 }
 
 .hero img {
     border-radius: 1em;
-    opacity: 0.9;
+    opacity: 0.85;
 }
 
 /* --- Introduction Section --- */
@@ -283,7 +286,7 @@ ul li a {
 }
 
 .intro-header {
-    border-bottom-width: 0.25em;
+    border-bottom-width: 0.125em;
     border-bottom-style: solid;
     /* border-bottom-color: #fff; */
     /* border-bottom-color:rgba(49, 31, 211, 0.932); */
@@ -302,7 +305,8 @@ ul li a {
 
 .our-philosophy .intro-fig, .resources .intro-fig {
     width: 40%;
-    box-shadow: 0.25em 0.5em 0.5em #fff;
+    /* box-shadow: 0.25em 0.5em 0.5em #fff; */
+    box-shadow: 0.25em 0.5em 0.5em grey;
     border-radius: 1em;
     margin: 1rem;
 }
@@ -345,7 +349,7 @@ ul li a {
 }
 
 .philosophy-header {
-    border-bottom-width: 0.25em;
+    border-bottom-width: 0.125em;
     border-bottom-style: solid;
     /* border-bottom-color: #fff; */
     /* border-bottom-color:rgba(49, 31, 211, 0.932); */
@@ -385,7 +389,7 @@ a.montessori-link {
 }
 
 .locations h3 {
-    align-self: center;
+    /* align-self: center; */
     border-bottom-width: 0.06em;
     border-bottom-style: solid;
     /* border-bottom-color: #fff; */
@@ -435,7 +439,8 @@ a.montessori-link {
 
 .location-map {
     display: flex;
-    box-shadow: 0.25em 0.5em 0.5em rgba(49, 31, 211, 0.788);
+    box-shadow: 0.25em 0.5em 0.5em grey;
+    /* box-shadow: 0.25em 0.5em 0.5em rgba(49, 31, 211, 0.788); */
     border-radius: 1rem;
     /* box-shadow: 0.25em 0.5em 0.5em #fff; */
     margin: 1rem 0;
