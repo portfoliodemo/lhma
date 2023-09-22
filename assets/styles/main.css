@@ -227,6 +227,15 @@ ul li a {
 
 .navbar .container-fluid {
     justify-content: space-around;
+    padding: 0em 1em;
+}
+
+.navbar-brand.navbar-header-main {
+    display: block;
+}
+
+.navbar-brand.navbar-header-mobile {
+    display: none;
 }
 
 /* --- Section Styling --- */
@@ -291,6 +300,10 @@ ul li a {
     /* border-bottom-color: #fff; */
     /* border-bottom-color:rgba(49, 31, 211, 0.932); */
 }
+
+/* .mobile-header {
+    display: none;
+} */
 
 .first-letter-paragraph {
     /* vertical-align: bottom; */
@@ -511,6 +524,8 @@ a.contact-btn:hover {
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    background-color: darkslategray;
+    color: #fff;
     /* align-items: center; */
     /* background-color: rgba(49, 31, 211, 0.788); */
     font-family: var(--font-family-roboto);
@@ -707,6 +722,21 @@ a.contact-btn:hover {
         font-size: 1rem;
         font-weight: 600;
         white-space: nowrap;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .navbar-brand.navbar-header-main {
+        display: none;
+    }
+
+    .navbar-brand.navbar-header-mobile {
+        display: block;
+    }
+
+    .introduction, .our-philosophy, .locations {
+        padding: 1rem 2rem;
     }
 }
 
