@@ -238,6 +238,10 @@ ul li a {
     display: none;
 }
 
+/* .lhma-logo-navbar {
+    width: 5%;
+} */
+
 /* --- Section Styling --- */
 .diagonal {
     position: relative;
@@ -258,7 +262,7 @@ ul li a {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
-    padding: 2em 0;
+    padding: 2em 0 4em 0;
     background-color: #fff;
     /* background-image: url('../images/digital-sunrise.png'); */
     /* background-image: url("../images/digital-sunrise-cropped.png"); */
@@ -267,18 +271,32 @@ ul li a {
     background-repeat: no-repeat;
     background-size: cover;
     /* border-bottom-right-radius: 2em; */
+
+    --mask:
+    radial-gradient(67.08px at 50% calc(100% - 90.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+    radial-gradient(67.08px at 50% calc(100% + 60.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+
+    /* --mask:
+    radial-gradient(67.08px at 50% 90.00px,#000 99%,#0000 101%) calc(50% - 60px) 0/120px 51% repeat-x,
+    radial-gradient(67.08px at 50% -60px,#0000 99%,#000 101%) 50% 30px/120px calc(51% - 30px) repeat-x,
+    radial-gradient(67.08px at 50% calc(100% - 90.00px),#000 99%,#0000 101%) calc(50% - 60px) 100%/120px 51% repeat-x,
+    radial-gradient(67.08px at 50% calc(100% + 60.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px calc(51% - 30px) repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask); */
 }
 
-.hero figure {
+/* .hero figure {
     width: 40%;
     box-shadow: 0.25em 0.5em 0.5em grey;
     border-radius: 1em;
-}
+} */
 
-.hero img {
+/* .hero img {
     border-radius: 1em;
     opacity: 0.85;
-}
+} */
 
 /* --- Introduction Section --- */
 .introduction {
@@ -290,6 +308,7 @@ ul li a {
     /* margin-top: 2em; */
     padding: 1rem 5rem;
     font-family: var(--font-family-roboto);
+    /* background-color: rgba(147, 200, 244, 0.788); */
     /* background-color: rgba(49, 31, 211, 0.788); */
     /* color: rgba(253, 253, 253, 0.925); */
 }
@@ -299,6 +318,16 @@ ul li a {
     border-bottom-style: solid;
     /* border-bottom-color: #fff; */
     /* border-bottom-color:rgba(49, 31, 211, 0.932); */
+}
+
+.hero-banner {
+    width: 80%;
+    box-shadow: 0.25em 0.5em 0.5em grey;
+    border-radius: 1em;
+}
+
+.hero-banner img {
+    border-radius: 1em;
 }
 
 /* .mobile-header {
@@ -316,6 +345,18 @@ ul li a {
     max-width: 50rem;
 }
 
+.painted-hands {
+    min-width: 20%;
+    width: 40%;
+    box-shadow: 0.25em 0.5em 0.5em grey;
+    border-radius: 1em;
+}
+
+.painted-hands img {
+    border-radius: 1em;
+    /* opacity: 0.85; */
+}
+
 .our-philosophy .intro-fig, .resources .intro-fig {
     width: 40%;
     /* box-shadow: 0.25em 0.5em 0.5em #fff; */
@@ -324,12 +365,28 @@ ul li a {
     margin: 1rem;
 }
 
+.five-senses {
+    width: 85%;
+}
+
 .book-tour-header {
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 500;
+    font-size: 1.25rem;
     /* text-decoration: underline; */
+}
+
+.grassy-field {
+    width: 80%;
+    box-shadow: 0.25em 0.5em 0.5em grey;
+    border-radius: 1em;
+    margin-bottom: 1rem;
+}
+
+.grassy-field img {
+    border-radius: 1em;
 }
 
 .our-philosophy .intro-fig img, .resources .intro-fig img {
@@ -374,12 +431,32 @@ ul li a {
 }
 
 .learn-more-montessori {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 a.montessori-link {
     /* color: yellow; */
     text-decoration: none;
+}
+
+.wavy-break-top {
+    height: 4rem;
+    background-color: lightskyblue;
+    --mask:
+          radial-gradient(67.08px at 50% 90.00px,#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+          radial-gradient(67.08px at 50% -60px,#0000 99%,#000 101%) 50% 30px/120px 100% repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+}
+
+.wavy-break-bottom {
+    height: 5rem;
+    background-color: lightskyblue;
+    --mask:
+    radial-gradient(67.08px at 50% calc(100% - 90.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+    radial-gradient(67.08px at 50% calc(100% + 60.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
 }
 
 /* --- Locations & Contact --- */
@@ -518,19 +595,28 @@ a.contact-btn:hover {
     /* color: rgba(49, 31, 211, 0.932); */
 }
 
+.homepage-ending {
+    display: flex;
+    justify-content: center;
+}
+
 .footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    background-color: darkslategray;
-    color: #fff;
+    background-color: lightskyblue;
+    color: #000;
     /* align-items: center; */
     /* background-color: rgba(49, 31, 211, 0.788); */
     font-family: var(--font-family-roboto);
     /* color: #fff; */
     padding: 2rem 1rem;
+}
+
+footer h2 {
+    font-size: 1rem;
 }
 
 /* .footer-locations {
@@ -737,6 +823,14 @@ a.contact-btn:hover {
 
     .introduction, .our-philosophy, .locations {
         padding: 1rem 2rem;
+    }
+
+    footer h2 {
+        font-size: 1rem;
+    }
+
+    h2.intro-header, h2.our-philosophy {
+        font-size: 1rem;
     }
 }
 
