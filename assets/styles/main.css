@@ -316,6 +316,7 @@ ul li a {
 .intro-header {
     border-bottom-width: 0.125em;
     border-bottom-style: solid;
+    border-bottom-color: lightgrey;
     /* border-bottom-color: #fff; */
     /* border-bottom-color:rgba(49, 31, 211, 0.932); */
 }
@@ -334,11 +335,10 @@ ul li a {
     display: none;
 } */
 
-.first-letter-paragraph {
-    /* vertical-align: bottom; */
+/* .first-letter-paragraph {
     font-size: 1.25rem;
     font-weight: 600;
-}
+} */
 
 .introduction p {
     /* color: #fff; */
@@ -421,6 +421,7 @@ ul li a {
 .philosophy-header {
     border-bottom-width: 0.125em;
     border-bottom-style: solid;
+    border-bottom-color: lightgrey;
     /* border-bottom-color: #fff; */
     /* border-bottom-color:rgba(49, 31, 211, 0.932); */
 }
@@ -473,6 +474,7 @@ a.montessori-link {
 
 .locations h2 {
     /* font-size: 1.5rem; */
+    border-bottom-color: lightgrey;
     border-bottom-width: 0.125em;
     border-bottom-style: solid;
     /* border-bottom-color: #fff; */
@@ -480,24 +482,32 @@ a.montessori-link {
 
 .locations h3 {
     /* align-self: center; */
-    border-bottom-width: 0.06em;
+    border-bottom-width: 0.125em;
     border-bottom-style: solid;
+    border-bottom-color: lightgrey;
     /* border-bottom-color: #fff; */
+}
+
+.location-grid {
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .calgary-location {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    align-items: flex-start;
-    /* align-items: center; */
+    /* align-items: flex-start; */
+    align-items: center;
 }
 
 .calgary-location h4, .okotoks-location h4 {
-    margin-top: 0.5rem;
+    margin-top: 1.25rem;
     margin-bottom: 0.25rem;
     border-bottom-width: 0.125em;
-    border-bottom-style: groove;
+    border-bottom-color: lightgrey;
+    border-bottom-style: solid;
+    /* border-bottom-style: groove; */
     /* border-bottom-color: rgba(49, 31, 211, 0.932); */
 }
 
@@ -510,8 +520,9 @@ a.montessori-link {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    align-items: flex-start;
-    /* align-items: center; */
+    margin-top: 1.75rem;
+    /* align-items: flex-start; */
+    align-items: center;
 }
 
 .okotoks-location a {
@@ -671,13 +682,20 @@ footer h2 {
 
 /* ----- Media Queries ----- */
 
-@media (min-width: 1240px) {
-    .company-name-full {
-        display: block;
+@media (min-width: 1080px) {
+
+    .location-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
     }
 
-    /* .company-name-acronym {
-        display: none;
+    .okotoks-location {
+        margin-top: 0;
+    }
+
+    /* .calgary-location, .okotoks-location {
+        align-items: center;
     } */
 }
 
@@ -829,7 +847,7 @@ footer h2 {
         font-size: 1rem;
     }
 
-    h2.intro-header, h2.our-philosophy {
+    h1.intro-header, h2.our-philosophy {
         font-size: 1rem;
     }
 }
