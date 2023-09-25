@@ -322,6 +322,7 @@ ul li a {
 }
 
 .hero-banner {
+    max-width: 897px;
     width: 80%;
     box-shadow: 0.25em 0.5em 0.5em grey;
     border-radius: 1em;
@@ -376,6 +377,17 @@ ul li a {
     font-weight: 500;
     font-size: 1.25rem;
     /* text-decoration: underline; */
+}
+
+.children-playing-cartoon {
+    width: 80%;
+    box-shadow: 0.25em 0.5em 0.5em grey;
+    border-radius: 1em;
+    margin-bottom: 1rem;
+}
+
+.children-playing-cartoon img {
+    border-radius: 1em;
 }
 
 .grassy-field {
@@ -556,6 +568,7 @@ a.montessori-link {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 0 1rem 0;
     /* padding: 1rem 3rem; */
     gap: 1rem;
 }
