@@ -265,7 +265,7 @@ ul li a {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
-    padding: 7em 0 4em 0;
+    padding: 6em 0 6em 0;
     background-color: #fff;
     /* background-image: url('../images/digital-sunrise.png'); */
     /* background-image: url("../images/digital-sunrise-cropped.png"); */
@@ -722,9 +722,13 @@ footer h2 {
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1003px) {
     #offcanvasNavbar {
         align-items: center;
+    }
+
+    .navbar .container-fluid {
+        margin-left: 2rem;
     }
 }
 
@@ -736,13 +740,13 @@ footer h2 {
 
 @media (min-width: 811px) and (max-width: 1100px) {
     .hero {
-        padding: 6em 0 4em 0;
+        padding: 6em 0 6em 0;
     }
 }
 
 @media (min-width: 781px) and (max-width: 810px) {
     .hero {
-        padding: 5em 0 4em 0;
+        padding: 5em 0 5em 0;
     }
 }
 
@@ -851,7 +855,7 @@ footer h2 {
 
 @media (min-width: 0px) and (max-width: 330px) {
     .hero {
-        padding: 3em 0 4em 0;
+        padding: 3em 0 3em 0;
     }
 }
 
