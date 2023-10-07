@@ -228,19 +228,22 @@ ul li a {
 .navbar .container-fluid {
     justify-content: space-around;
     padding: 0em 1em;
+    gap: 1rem;
 }
 
 .navbar-brand.navbar-header-main {
     display: block;
+    margin: 0;
 }
 
 .navbar-brand.navbar-header-mobile {
     display: none;
 }
 
-/* .lhma-logo-navbar {
-    width: 5%;
-} */
+.lhma-logo-navbar {
+    width: 10%;
+    min-width: 3.5%;
+}
 
 /* --- Section Styling --- */
 .diagonal {
@@ -262,7 +265,7 @@ ul li a {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
-    padding: 2em 0 4em 0;
+    padding: 7em 0 4em 0;
     background-color: #fff;
     /* background-image: url('../images/digital-sunrise.png'); */
     /* background-image: url("../images/digital-sunrise-cropped.png"); */
@@ -391,7 +394,8 @@ ul li a {
 }
 
 .grassy-field {
-    width: 80%;
+    /* max-width: 1200px; */
+    /* width: 80%; */
     box-shadow: 0.25em 0.5em 0.5em grey;
     border-radius: 1em;
     margin-bottom: 1rem;
@@ -712,6 +716,36 @@ footer h2 {
     } */
 }
 
+@media (min-width: 1100px) {
+    .navbar-brand.navbar-header-main {
+        padding: 0 0 0 3rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    #offcanvasNavbar {
+        align-items: center;
+    }
+}
+
+@media (min-width: 980px) {
+    .lhma-logo-navbar {
+        width: 5%;
+    }
+}
+
+@media (min-width: 811px) and (max-width: 1100px) {
+    .hero {
+        padding: 6em 0 4em 0;
+    }
+}
+
+@media (min-width: 781px) and (max-width: 810px) {
+    .hero {
+        padding: 5em 0 4em 0;
+    }
+}
+
 @media (min-width: 781px) {
     /* header {
         padding: 1em;
@@ -809,6 +843,18 @@ footer h2 {
 
 }
 
+@media (min-width: 330px) and (max-width: 780px) {
+    .hero {
+        padding: 4em 0 4em 0;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 330px) {
+    .hero {
+        padding: 3em 0 4em 0;
+    }
+}
+
 @media (min-width: 485px) {
     .mini-mobile-header {
         flex-direction: row;
@@ -842,7 +888,11 @@ footer h2 {
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 500px) {
+
+    .lhma-logo-navbar {
+        width: 15%;
+    }
 
     .navbar-brand.navbar-header-main {
         display: none;
@@ -861,7 +911,7 @@ footer h2 {
     }
 
     h1.intro-header, h2.our-philosophy {
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
 }
 
