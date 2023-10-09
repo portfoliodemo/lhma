@@ -704,6 +704,58 @@ footer h2 {
     width: 20%;
 } */
 
+/* ----- About Us ----- */
+
+/* --- About Hero Section --- */
+.about-hero {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 3em 0 3em 0;
+    background-color: #fff;
+    background-image: url('../images/grass-clouds-blue-sky.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    --mask:
+    radial-gradient(67.08px at 50% calc(100% - 90.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+    radial-gradient(67.08px at 50% calc(100% + 60.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+}
+
+.about-hero-banner {
+    max-width: 1920px;
+    width: 40%;
+    box-shadow: 0.25em 0.5em 0.5em grey;
+    border-radius: 1em;
+    margin: 2rem 0;
+}
+
+.about-hero-banner img {
+    border-radius: 1em;
+}
+
+.about-introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap, 1.25rem);
+    padding: 1rem 5rem;
+    font-family: var(--font-family-roboto);
+}
+
+.about-introduction h2 {
+    border-bottom-width: 0.125em;
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+}
+
+.about-introduction p {
+    max-width: 50rem;
+}
+
+/* ----- End of About Us ----- */
+
 /* ----- Media Queries ----- */
 
 @media (min-width: 1080px) {
@@ -901,6 +953,10 @@ footer h2 {
 
 @media (max-width: 500px) {
 
+    .about-hero {
+        padding: 1em 0 2em 0;
+    }
+
     .lhma-logo-navbar {
         width: 15%;
     }
@@ -913,7 +969,7 @@ footer h2 {
         display: block;
     }
 
-    .introduction, .our-philosophy, .locations {
+    .introduction, .our-philosophy, .locations, .about-introduction {
         padding: 1rem 2rem;
     }
 
@@ -921,7 +977,11 @@ footer h2 {
         font-size: 1rem;
     }
 
-    h1.intro-header, h2.our-philosophy {
+    h1.intro-header {
+        font-size: 1.25rem;
+    }
+
+    .about-introduction h2 {
         font-size: 1.25rem;
     }
 }
