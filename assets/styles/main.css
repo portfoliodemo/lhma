@@ -251,6 +251,10 @@ ul li a {
     min-width: 3.5%;
 }
 
+.offcanvas-title {
+    font-family: var(--font-family-delius-swash-caps);
+}
+
 /* --- Section Styling --- */
 .diagonal {
     position: relative;
@@ -445,6 +449,7 @@ ul li a {
     border-bottom-width: 0.125em;
     border-bottom-style: solid;
     border-bottom-color: lightgrey;
+    font-family: var(--font-family-delius-swash-caps);
     /* border-bottom-color: #fff; */
     /* border-bottom-color:rgba(49, 31, 211, 0.932); */
 }
@@ -483,6 +488,18 @@ a.montessori-link {
     mask: var(--mask);
 }
 
+.wavy-top-and-bottom {
+    --mask:
+          radial-gradient(34.99px at 50% 48.00px,#000 99%,#0000 101%) calc(50% - 60px) 0/120px 51% repeat-x,
+          radial-gradient(34.99px at 50% -18px,#0000 99%,#000 101%) 50% 30px/120px calc(51% - 30px) repeat-x,
+          radial-gradient(34.99px at 50% calc(100% - 48.00px),#000 99%,#0000 101%) 50% 100%/120px 51% repeat-x,
+          radial-gradient(34.99px at 50% calc(100% + 18.00px),#0000 99%,#000 101%) calc(50% - 60px) calc(100% - 30px)/120px calc(51% - 30px) repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+    height: 3rem;
+    background-color: lightskyblue;
+}
+
 /* --- Locations & Contact --- */
 .locations {
     display: flex;
@@ -500,6 +517,7 @@ a.montessori-link {
     border-bottom-color: lightgrey;
     border-bottom-width: 0.125em;
     border-bottom-style: solid;
+    font-family: var(--font-family-delius-swash-caps);
     /* border-bottom-color: #fff; */
 }
 
@@ -508,6 +526,7 @@ a.montessori-link {
     border-bottom-width: 0.125em;
     border-bottom-style: solid;
     border-bottom-color: lightgrey;
+    font-family: var(--font-family-delius-swash-caps);
     /* border-bottom-color: #fff; */
 }
 
@@ -530,6 +549,7 @@ a.montessori-link {
     border-bottom-width: 0.125em;
     border-bottom-color: lightgrey;
     border-bottom-style: solid;
+    font-family: var(--font-family-delius-swash-caps);
     /* border-bottom-style: groove; */
     /* border-bottom-color: rgba(49, 31, 211, 0.932); */
 }
@@ -602,6 +622,7 @@ a.contact-btn {
     font-size: 1.25rem;
     font-weight: 600;
     white-space: nowrap;
+    font-family: var(--font-family-delius-swash-caps);
 }
 
 a.contact-btn:hover {
@@ -645,7 +666,7 @@ a.contact-btn:hover {
     color: #000;
     /* align-items: center; */
     /* background-color: rgba(49, 31, 211, 0.788); */
-    font-family: var(--font-family-roboto);
+    font-family: var(--font-family-delius-swash-caps);
     /* color: #fff; */
     padding: 2rem 1rem;
 }
@@ -725,7 +746,7 @@ footer h2 {
 
 .about-hero-banner {
     max-width: 1920px;
-    width: 40%;
+    width: 29%;
     box-shadow: 0.25em 0.5em 0.5em grey;
     border-radius: 1em;
     margin: 2rem 0;
@@ -739,15 +760,17 @@ footer h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: var(--gap, 1.25rem);
+    gap: 1.25rem;
+    /* gap: var(--gap, 1.25rem); */
     padding: 1rem 5rem;
     font-family: var(--font-family-roboto);
 }
 
 .about-introduction h2 {
-    border-bottom-width: 0.125em;
-    border-bottom-style: solid;
-    border-bottom-color: lightgrey;
+    font-family: var(--font-family-delius-swash-caps);
+    /* border-bottom-width: 0.125em; */
+    /* border-bottom-style: solid; */
+    /* border-bottom-color: lightgrey; */
 }
 
 .about-introduction p {
