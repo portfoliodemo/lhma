@@ -231,6 +231,10 @@ ul li a {
     gap: 1rem;
 }
 
+.navbar-brand {
+    font-family: 'Delius Swash Caps', cursive;
+}
+
 .navbar-brand.navbar-header-main {
     display: block;
     margin: 0;
@@ -394,8 +398,8 @@ ul li a {
 }
 
 .grassy-field {
-    /* max-width: 1200px; */
-    /* width: 80%; */
+    max-width: 1000px;
+    width: 80%;
     box-shadow: 0.25em 0.5em 0.5em grey;
     border-radius: 1em;
     margin-bottom: 1rem;
