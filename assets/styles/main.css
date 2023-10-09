@@ -11,6 +11,7 @@
     --font-family-twinkle-star: 'Twinkle Star', cursive;
     --font-family-righteous: 'Righteous', cursive;
     --font-family-bricolage-grotesque: 'Bricolage Grotesque', sans-serif;
+    --font-family-delius-swash-caps: 'Delius Swash Caps', cursive;
 
     /* -- Colors -- */
     --bg-color-blue-purple: rgba(49, 31, 211, 0.788);
@@ -138,7 +139,8 @@ header {
 }
 
 header h1 {
-    font-family: var(--font-family-bricolage-grotesque);
+    /* font-family: var(--font-family-bricolage-grotesque); */
+    /* font-family: var(--font-family-delius-swash-caps); */
     padding: 0em 1em;
     font-weight: 400;
     /* text-wrap: balance; */
@@ -232,7 +234,7 @@ ul li a {
 }
 
 .navbar-brand {
-    font-family: 'Delius Swash Caps', cursive;
+    font-family: var(--font-family-delius-swash-caps);
 }
 
 .navbar-brand.navbar-header-main {
@@ -321,6 +323,7 @@ ul li a {
 }
 
 .intro-header {
+    font-family: var(--font-family-delius-swash-caps);
     border-bottom-width: 0.125em;
     border-bottom-style: solid;
     border-bottom-color: lightgrey;
