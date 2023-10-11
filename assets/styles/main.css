@@ -217,15 +217,15 @@ header h1 {
 ul {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 1rem;
 }
 
-ul li a {
+/* ul li a {
     color: #fff;
-}
+} */
 
 .navbar .container-fluid {
     justify-content: space-around;
@@ -778,6 +778,50 @@ footer h2 {
 }
 
 /* ----- End of About Us ----- */
+
+/* ----- Resources ----- */
+.resources-hero {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 6em 0 6em 0;
+    background-color: #fff;
+    background-image: url('../images/grass-clouds-blue-sky.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    --mask:
+    radial-gradient(67.08px at 50% calc(100% - 90.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+    radial-gradient(67.08px at 50% calc(100% + 60.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+}
+
+.resources-hero-banner {
+    max-width: 897px;
+    width: 80%;
+    box-shadow: 0.25em 0.5em 0.5em grey;
+    border-radius: 1em;
+}
+
+.resources-hero-banner img {
+    border-radius: 1em;
+}
+
+.resources {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border-top-left-radius: 2em; */
+    gap: var(--gap, 1.25rem);
+    /* margin-top: 2em; */
+    padding: 1rem 5rem;
+    font-family: var(--font-family-roboto);
+    /* background-color: rgba(147, 200, 244, 0.788); */
+    /* background-color: rgba(49, 31, 211, 0.788); */
+    /* color: rgba(253, 253, 253, 0.925); */
+}
+
+/* ----- End of Resources ----- */
 
 /* ----- Media Queries ----- */
 
