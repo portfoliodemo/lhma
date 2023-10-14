@@ -168,6 +168,9 @@ ul {
 .navbar-brand.navbar-header-main {
     display: block;
     margin: 0;
+    /* border-bottom-width: 0.125em; */
+    /* border-bottom-style: solid; */
+    /* border-bottom-color: lightgrey; */
 }
 
 .navbar-brand.navbar-header-mobile {
@@ -588,6 +591,15 @@ a.contact-btn:hover {
     justify-content: center;
 }
 
+.socials {
+    display: flex;
+    justify-content: center;
+}
+
+.facebook {
+    width: 12%;
+}
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -706,6 +718,7 @@ footer h2 {
 }
 
 .about-introduction h3 {
+    font-family: var(--font-family-delius-swash-caps);
     border-bottom-width: 0.125em;
     border-bottom-style: solid;
     border-bottom-color: lightgrey;
@@ -716,7 +729,7 @@ footer h2 {
 }
 
 .hi-mama {
-    width: 15%;
+    width: 30%;
 }
 
 /* ----- End of About Us ----- */
@@ -829,6 +842,10 @@ footer h2 {
         padding: 0;
         font-size: 1.5rem;
     }
+
+    .facebook {
+        width: 19%;
+    }
 }
 
 @media (min-width: 330px) and (max-width: 780px) {
@@ -885,6 +902,9 @@ footer h2 {
 
     .navbar-brand.navbar-header-mobile {
         display: block;
+        /* border-bottom-width: 0.125em; */
+        /* border-bottom-style: solid; */
+        /* border-bottom-color: lightgrey; */
     }
 
     .introduction, .our-philosophy, .locations, .about-introduction {
