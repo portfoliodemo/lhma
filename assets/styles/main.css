@@ -705,8 +705,18 @@ footer h2 {
     /* border-bottom-color: lightgrey; */
 }
 
+.about-introduction h3 {
+    border-bottom-width: 0.125em;
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+}
+
 .about-introduction p {
     max-width: 50rem;
+}
+
+.hi-mama {
+    width: 15%;
 }
 
 /* ----- End of About Us ----- */
