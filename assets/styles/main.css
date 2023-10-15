@@ -839,6 +839,20 @@ footer h2 {
     border-bottom-color: lightgrey;
 }
 
+.contact-form-header {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-family-delius-swash-caps);
+    /* border-bottom-width: 0.125em; */
+    /* border-bottom-style: solid; */
+    /* border-bottom-color: lightgrey; */
+}
+
+.google-form {
+    display: flex;
+    justify-content: center;
+}
+
 /* ----- End of Contact LHMA ----- */
 
 /* ----- Media Queries ----- */
