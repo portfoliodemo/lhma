@@ -155,6 +155,13 @@ ul {
     padding: 1rem;
 }
 
+h3 {
+    font-family: var(--font-family-delius-swash-caps);
+    border-bottom-width: 0.125em;
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+}
+
 .navbar .container-fluid {
     justify-content: space-around;
     padding: 0em 1em;
@@ -476,6 +483,11 @@ a.montessori-link {
     gap: 0.5rem;
     /* align-items: flex-start; */
     align-items: center;
+    padding: 1rem;
+    border-style: solid;
+    border-width: 0.25rem;
+    border-color: lightskyblue;
+    border-radius: 1rem;
 }
 
 .calgary-location h4, .okotoks-location h4 {
@@ -501,6 +513,11 @@ a.montessori-link {
     margin-top: 1.75rem;
     /* align-items: flex-start; */
     align-items: center;
+    padding: 1rem;
+    border-style: solid;
+    border-width: 0.25rem;
+    border-color: lightskyblue;
+    border-radius: 1rem;
 }
 
 .okotoks-location a {
@@ -519,10 +536,15 @@ a.montessori-link {
 .location-map {
     display: flex;
     box-shadow: 0.25em 0.5em 0.5em grey;
-    /* box-shadow: 0.25em 0.5em 0.5em rgba(49, 31, 211, 0.788); */
     border-radius: 1rem;
-    /* box-shadow: 0.25em 0.5em 0.5em #fff; */
     margin: 1rem 0;
+    border-color: lightskyblue;
+    border-width: 0.25rem;
+    border-style: double;
+    /* border-style: groove; */
+    /* border-style: solid; */
+    /* box-shadow: 0.25em 0.5em 0.5em rgba(49, 31, 211, 0.788); */
+    /* box-shadow: 0.25em 0.5em 0.5em #fff; */
 }
 
 .location-map iframe {
@@ -832,6 +854,13 @@ footer h2 {
     font-family: var(--font-family-roboto);
 }
 
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
 .contact-header {
     font-family: var(--font-family-delius-swash-caps);
     border-bottom-width: 0.125em;
@@ -843,9 +872,52 @@ footer h2 {
     display: flex;
     justify-content: center;
     font-family: var(--font-family-delius-swash-caps);
-    /* border-bottom-width: 0.125em; */
-    /* border-bottom-style: solid; */
-    /* border-bottom-color: lightgrey; */
+    border-bottom-width: 0.125em;
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+}
+
+.calgary-contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-width: 0.25rem;
+    border-style: solid;
+    border-color: lightskyblue;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.calgary-contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.okotoks-contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-width: 0.25rem;
+    border-style: solid;
+    border-color: lightskyblue;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.okotoks-contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.contact-form-ul {
+    display: flex;
+    align-items: center;
 }
 
 .google-form {
