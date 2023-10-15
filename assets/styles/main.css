@@ -921,6 +921,10 @@ footer h2 {
     .facebook {
         width: 19%;
     }
+
+    .hi-mama {
+        width: 45%;
+    }
 }
 
 @media (min-width: 330px) and (max-width: 780px) {
