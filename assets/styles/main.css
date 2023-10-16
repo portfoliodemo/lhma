@@ -859,6 +859,7 @@ footer h2 {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    padding: 1rem 2rem;
 }
 
 .contact-header {
@@ -918,6 +919,10 @@ footer h2 {
 .contact-form-ul {
     display: flex;
     align-items: center;
+}
+
+textarea {
+    border-radius: 1rem;
 }
 
 .google-form {
