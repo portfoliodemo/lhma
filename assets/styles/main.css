@@ -814,6 +814,17 @@ footer h2 {
     /* color: rgba(253, 253, 253, 0.925); */
 }
 
+.resources p {
+    max-width: 50rem;
+}
+
+.resources ul {
+    border-width: 0.25rem;
+    border-color: lightskyblue;
+    border-style: double;
+    border-radius: 1rem;
+}
+
 /* ----- End of Resources ----- */
 
 /* ----- Contact LHMA ----- */
@@ -878,6 +889,11 @@ footer h2 {
     border-bottom-color: lightgrey;
 }
 
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 .calgary-contact-container {
     display: flex;
     flex-direction: column;
@@ -938,6 +954,11 @@ textarea {
 
     .location-grid {
         display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+
+    .contact-grid {
         grid-template-columns: 1fr 1fr;
         gap: 3rem;
     }
