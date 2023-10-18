@@ -827,6 +827,26 @@ footer h2 {
 
 /* ----- End of Resources ----- */
 
+
+/* ----- Montessori ----- */
+
+.quote-dr-montessori {
+    background-color: rgba(255, 255, 255, 0.678);
+    color: slategray;
+    padding: 2rem 4rem;
+    border-width: 0.25rem;
+    border-color: lightskyblue;
+    border-style: double;
+    border-radius: 1rem;
+}
+
+.quote-dr-montessori p {
+    max-width: 50rem;
+}
+
+/* ----- End of Montessori ----- */
+
+
 /* ----- Contact LHMA ----- */
 
 .contact-hero {
