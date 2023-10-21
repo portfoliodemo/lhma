@@ -831,8 +831,9 @@ footer h2 {
 /* ----- Montessori ----- */
 
 .quote-dr-montessori {
-    background-color: rgba(255, 255, 255, 0.678);
-    color: slategray;
+    background-color: rgba(255, 255, 255, 0.363);
+    /* color: slategray; */
+    color: #000000dc;
     padding: 2rem 4rem;
     border-width: 0.25rem;
     border-color: lightskyblue;
@@ -841,7 +842,11 @@ footer h2 {
 }
 
 .quote-dr-montessori p {
-    max-width: 50rem;
+    max-width: 25rem;
+}
+
+.quote-dr-montessori footer {
+    font-style: italic;
 }
 
 /* ----- End of Montessori ----- */
@@ -1049,16 +1054,28 @@ textarea {
     .hero {
         padding: 4em 0 4em 0;
     }
+
+    .quote-dr-montessori {
+        margin: 0.5rem 2rem;
+        padding: 0.5rem 1rem;
+
+    }
+
 }
 
 @media (min-width: 0px) and (max-width: 330px) {
     .hero {
         padding: 3em 0 3em 0;
     }
+
+    .quote-dr-montessori {
+        margin: 0.5rem 2rem;
+        padding: 0.5rem 1rem;
+
+    }
 }
 
-@media (max-width: 450px) {
-    
+@media (max-width: 450px) {    
     .contact-hero {
         padding: 3em 0 4em 0;
     }
@@ -1079,7 +1096,6 @@ textarea {
 }
 
 @media (max-width: 500px) {
-
     .about-hero {
         padding: 1em 0 2em 0;
     }
