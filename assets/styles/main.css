@@ -100,6 +100,14 @@ select {
     max-width: 80rem;
 }
 
+.italics {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 .sr-only {
     position: absolute;
     width: 1px;
@@ -227,15 +235,15 @@ h3 {
     background-size: cover;
     /* border-bottom-right-radius: 2em; */
 
-    --mask:
-    radial-gradient(67.08px at 50% calc(100% - 90.00px), #000 99%, transparent 101%) calc(50% - 60px) 0/120px 100%,
-    radial-gradient(67.08px at 50% calc(100% + 60.00px), transparent 99%, #000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
-
-    
-    /* radial-gradient(67.08px at 50% calc(100% - 90.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%, */
-    /* radial-gradient(67.08px at 50% calc(100% + 60.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x; */
+    --mask:    
+    radial-gradient(67.08px at 50% calc(100% - 90.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+    radial-gradient(67.08px at 50% calc(100% + 60.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
     -webkit-mask: var(--mask);
     mask: var(--mask);
+
+    /* radial-gradient(67.08px at 50% calc(100% - 90.00px), #000 99%, transparent 101%) calc(50% - 60px) 0/120px 100%, */
+    /* radial-gradient(67.08px at 50% calc(100% + 60.00px), transparent 99%, #000 101%) 50% calc(100% - 30px)/120px 100% repeat-x; */
+
 
     /* --mask:
     radial-gradient(67.08px at 50% 90.00px,#000 99%,#0000 101%) calc(50% - 60px) 0/120px 51% repeat-x,
@@ -768,6 +776,10 @@ footer h2 {
     width: 30%;
 }
 
+.about-booking {
+    margin: 0 0 1rem 0;
+}
+
 /* ----- End of About Us ----- */
 
 /* ----- Resources ----- */
@@ -853,6 +865,41 @@ footer h2 {
     font-style: italic;
 }
 
+.montessori {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap, 1.25rem);
+    padding: 1rem 5rem;
+    font-family: var(--font-family-roboto);
+}
+
+/* .maria-portrait-paragraph {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+} */
+
+.montessori p {
+    max-width: 50rem;
+}
+
+.maria-montessori {
+    display: flex;
+    /* width: 30%; */
+    border-radius: 1rem;
+    margin: 0.5rem 0;
+}
+
+.maria-montessori img {
+    border-radius: 1rem;
+}
+
+.montessori-intro-list {
+    max-width: 50rem;
+    padding: 0;
+}
+
 /* ----- End of Montessori ----- */
 
 
@@ -921,6 +968,7 @@ footer h2 {
 .contact-grid {
     display: grid;
     grid-template-columns: 1fr;
+    gap: 1rem;
 }
 
 .calgary-contact-container {
