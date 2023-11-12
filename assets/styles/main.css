@@ -827,6 +827,18 @@ footer h2 {
     /* max-width: 27%; */
 }
 
+.safe-daycare {
+    min-width: 30%;
+}
+
+.family-portrait {
+    min-width: 30%;
+}
+
+.book-tour-destination {
+    min-width: 30%;
+}
+
 .about-booking {
     margin: 0 0 1rem 0;
 }
@@ -1137,6 +1149,18 @@ textarea {
     }
 
     .light-bulb {
+        min-width: 17%;
+    }
+
+    .safe-daycare {
+        min-width: 17%;
+    }
+
+    .family-portrait {
+        min-width: 17%;
+    }
+
+    .book-tour-destination {
         min-width: 17%;
     }
 
