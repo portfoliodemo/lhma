@@ -364,6 +364,9 @@ h3 {
     box-shadow: 0.25em 0.5em 0.5em grey;
     border-radius: 1em;
     margin-bottom: 1rem;
+    border-width: 0.25rem;
+    border-style: dashed;
+    border-color: lightskyblue;
 }
 
 .grassy-field img {
@@ -420,6 +423,16 @@ h3 {
 a.montessori-link {
     /* color: yellow; */
     text-decoration: none;
+}
+
+.wavy-break {
+    --mask:
+      radial-gradient(67.08px at 50% 90.00px,#000 99%,#0000 101%) calc(50% - 60px) 0/120px 51% repeat-x,
+      radial-gradient(67.08px at 50% -60px,#0000 99%,#000 101%) 50% 30px/120px calc(51% - 30px) repeat-x,
+      radial-gradient(67.08px at 50% calc(100% - 90.00px),#000 99%,#0000 101%) calc(50% - 60px) 100%/120px 51% repeat-x,
+      radial-gradient(67.08px at 50% calc(100% + 60.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px calc(51% - 30px) repeat-x;
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
 }
 
 .wavy-break-top {
@@ -781,9 +794,10 @@ footer h2 {
     padding: 1rem 2rem;
     font-family: var(--font-family-roboto);
     border-style: dashed;
-    border-width: 0.125em;
+    border-width: 0.25em;
     border-color: lightskyblue;
     border-radius: 1em;
+    /* border-width: 0.125em; */
 }
 
 .hi-mama-container h3 {
@@ -800,6 +814,10 @@ footer h2 {
 .hi-mama-container ul {
     gap: 0.5rem;
     padding: 0 2em;
+}
+
+a.hi-mama-link {
+    text-decoration: none;
 }
 
 .globe-books {
@@ -1084,6 +1102,15 @@ textarea {
 .google-form {
     display: flex;
     justify-content: center;
+}
+
+.google-review {
+    display: flex;
+    justify-content: center;
+}
+
+.google-review-link {
+    text-decoration: none;
 }
 
 /* ----- End of Contact LHMA ----- */
