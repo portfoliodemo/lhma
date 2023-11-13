@@ -429,18 +429,6 @@ a.montessori-link {
     text-decoration: none;
 }
 
-.wavy-break {
-    height: 4rem;
-    background-color: lightskyblue;
-    --mask:
-        radial-gradient(67.08px at 50% 79.50px,#000 99%,#0000 101%) calc(50% - 60px) 0/120px 51% repeat-x,
-        radial-gradient(67.08px at 50% -49.5px,#0000 99%,#000 101%) 50% 30px/120px calc(51% - 30px) repeat-x,
-        radial-gradient(67.08px at 50% calc(100% - 79.50px),#000 99%,#0000 101%) calc(50% - 60px) 100%/120px 51% repeat-x,
-        radial-gradient(67.08px at 50% calc(100% + 49.50px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px calc(51% - 30px) repeat-x;
-    -webkit-mask: var(--mask);
-            mask: var(--mask);      
-}
-
 .wavy-break-top {
     height: 4rem;
     background-color: lightskyblue;
@@ -460,18 +448,6 @@ a.montessori-link {
     -webkit-mask: var(--mask);
     mask: var(--mask);
 }
-
-/* .wavy-top-and-bottom {
-    --mask:
-          radial-gradient(34.99px at 50% 48.00px,#000 99%,#0000 101%) calc(50% - 60px) 0/120px 51% repeat-x,
-          radial-gradient(34.99px at 50% -18px,#0000 99%,#000 101%) 50% 30px/120px calc(51% - 30px) repeat-x,
-          radial-gradient(34.99px at 50% calc(100% - 48.00px),#000 99%,#0000 101%) 50% 100%/120px 51% repeat-x,
-          radial-gradient(34.99px at 50% calc(100% + 18.00px),#0000 99%,#000 101%) calc(50% - 60px) calc(100% - 30px)/120px calc(51% - 30px) repeat-x;
-    -webkit-mask: var(--mask);
-    mask: var(--mask);
-    height: 4rem;
-    background-color: lightskyblue;
-} */
 
 /* --- Locations & Contact --- */
 .locations {
@@ -928,12 +904,35 @@ a.hi-mama-link {
     border-radius: 1rem;
 }
 
+.resources a {
+    text-decoration: none;
+}
+
 /* ----- End of Resources ----- */
 
 
 /* ----- Montessori ----- */
 
+.montessori-hero {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 6em 0 6em 0;
+    background-color: #fff;
+    background-image: url('../images/grass-clouds-blue-sky.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    --mask:    
+    radial-gradient(67.08px at 50% calc(100% - 90.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+    radial-gradient(67.08px at 50% calc(100% + 60.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+}
+
 .quote-dr-montessori {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: rgba(255, 255, 255, 0.363);
     /* color: slategray; */
     color: #000000dc;
@@ -950,6 +949,34 @@ a.hi-mama-link {
 
 .quote-dr-montessori footer {
     font-style: italic;
+}
+
+/* .study {
+    width: 30%;
+} */
+
+.journal-pencil {
+    width: 17%;
+}
+
+.table-bottle-plates {
+    width: 17%;
+}
+
+.world-in-hands-plant {
+    width: 17%;
+}
+
+.communicate {
+    width: 17%;
+}
+
+.maths-tools {
+    width: 17%;
+}
+
+.louvre {
+    width: 17%;
 }
 
 .montessori {
@@ -984,7 +1011,11 @@ a.hi-mama-link {
 
 .montessori-intro-list {
     max-width: 50rem;
-    padding: 0;
+    /* padding: 0; */
+    border-style: solid;
+    border-radius: 1em;
+    border-color: lightskyblue;
+    padding: 1em 2em;
 }
 
 /* ----- End of Montessori ----- */
@@ -1013,6 +1044,9 @@ a.hi-mama-link {
     max-width: 333px;
     box-shadow: 0.25em 0.5em 0.5em grey;
     border-radius: 1em;
+    border-style: solid;
+    border-width: 0.125rem;
+    border-color: lightskyblue;
 }
 
 .contact-hero-banner img {
