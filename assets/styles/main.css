@@ -334,6 +334,10 @@ h3 {
     margin: 1rem;
 }
 
+/* .multiple-destinations {
+    width: 10%;
+} */
+
 .five-senses {
     width: 85%;
 }
@@ -426,13 +430,15 @@ a.montessori-link {
 }
 
 .wavy-break {
+    height: 4rem;
+    background-color: lightskyblue;
     --mask:
-      radial-gradient(67.08px at 50% 90.00px,#000 99%,#0000 101%) calc(50% - 60px) 0/120px 51% repeat-x,
-      radial-gradient(67.08px at 50% -60px,#0000 99%,#000 101%) 50% 30px/120px calc(51% - 30px) repeat-x,
-      radial-gradient(67.08px at 50% calc(100% - 90.00px),#000 99%,#0000 101%) calc(50% - 60px) 100%/120px 51% repeat-x,
-      radial-gradient(67.08px at 50% calc(100% + 60.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px calc(51% - 30px) repeat-x;
+        radial-gradient(67.08px at 50% 79.50px,#000 99%,#0000 101%) calc(50% - 60px) 0/120px 51% repeat-x,
+        radial-gradient(67.08px at 50% -49.5px,#0000 99%,#000 101%) 50% 30px/120px calc(51% - 30px) repeat-x,
+        radial-gradient(67.08px at 50% calc(100% - 79.50px),#000 99%,#0000 101%) calc(50% - 60px) 100%/120px 51% repeat-x,
+        radial-gradient(67.08px at 50% calc(100% + 49.50px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px calc(51% - 30px) repeat-x;
     -webkit-mask: var(--mask);
-            mask: var(--mask);
+            mask: var(--mask);      
 }
 
 .wavy-break-top {
@@ -455,7 +461,7 @@ a.montessori-link {
     mask: var(--mask);
 }
 
-.wavy-top-and-bottom {
+/* .wavy-top-and-bottom {
     --mask:
           radial-gradient(34.99px at 50% 48.00px,#000 99%,#0000 101%) calc(50% - 60px) 0/120px 51% repeat-x,
           radial-gradient(34.99px at 50% -18px,#0000 99%,#000 101%) 50% 30px/120px calc(51% - 30px) repeat-x,
@@ -463,9 +469,9 @@ a.montessori-link {
           radial-gradient(34.99px at 50% calc(100% + 18.00px),#0000 99%,#000 101%) calc(50% - 60px) calc(100% - 30px)/120px calc(51% - 30px) repeat-x;
     -webkit-mask: var(--mask);
     mask: var(--mask);
-    height: 3rem;
+    height: 4rem;
     background-color: lightskyblue;
-}
+} */
 
 /* --- Locations & Contact --- */
 .locations {
