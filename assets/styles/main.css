@@ -897,6 +897,10 @@ a.hi-mama-link {
     max-width: 50rem;
 }
 
+.resources-box {
+    width: 17%;
+}
+
 .resources ul {
     border-width: 0.25rem;
     border-color: lightskyblue;
