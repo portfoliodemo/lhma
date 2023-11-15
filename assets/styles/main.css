@@ -1158,6 +1158,10 @@ textarea {
     text-decoration: none;
 }
 
+#message {
+    padding: 0.5rem 0.75rem;
+}
+
 /* ----- End of Contact LHMA ----- */
 
 /* ----- Media Queries ----- */
