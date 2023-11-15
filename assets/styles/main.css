@@ -960,27 +960,27 @@ a.hi-mama-link {
 } */
 
 .journal-pencil {
-    width: 17%;
+    width: 30%;
 }
 
 .table-bottle-plates {
-    width: 17%;
+    width: 30%;
 }
 
 .world-in-hands-plant {
-    width: 17%;
+    width: 30%;
 }
 
 .communicate {
-    width: 17%;
+    width: 30%;
 }
 
 .maths-tools {
-    width: 17%;
+    width: 30%;
 }
 
 .louvre {
-    width: 17%;
+    width: 30%;
 }
 
 .montessori {
@@ -1239,6 +1239,31 @@ textarea {
     .book-tour-destination {
         min-width: 17%;
     }
+
+    .journal-pencil {
+        width: 17%;
+    }
+    
+    .table-bottle-plates {
+        width: 17%;
+    }
+    
+    .world-in-hands-plant {
+        width: 17%;
+    }
+    
+    .communicate {
+        width: 17%;
+    }
+    
+    .maths-tools {
+        width: 17%;
+    }
+    
+    .louvre {
+        width: 17%;
+    }
+    
 
     /* .partnership {
         min-width: 17%;
