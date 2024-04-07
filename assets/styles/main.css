@@ -1026,6 +1026,19 @@ a.hi-mama-link {
     padding: 1em 2em;
 }
 
+.lhma-children {
+    width: 25%;
+    box-shadow: 0.125em 0.25em 0.25em GREY;
+    border-radius: 1em;
+    border-width: 0.125rem;
+    border-style: solid;
+    border-color: lightskyblue;
+}
+
+.lhma-children img {
+    border-radius: 1rem;
+}
+
 /* ----- End of Montessori ----- */
 
 
@@ -1321,6 +1334,10 @@ textarea {
     .quote-dr-montessori {
         margin: 0.5rem 2rem;
         padding: 0.5rem 1rem;
+    }
+
+    .lhma-children {
+        width: 40%;
     }
 }
 
