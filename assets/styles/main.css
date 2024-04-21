@@ -304,11 +304,6 @@ h3 {
     display: none;
 } */
 
-/* .first-letter-paragraph {
-    font-size: 1.25rem;
-    font-weight: 600;
-} */
-
 .introduction p {
     /* color: #fff; */
     max-width: 50rem;
@@ -707,10 +702,6 @@ footer h2 {
 .footer-hours-operation ul {
     gap: 0.25rem;
 }
-
-/* .pencil-border-bottom {
-    width: 20%;
-} */
 
 /* ----- About Us ----- */
 
