@@ -137,7 +137,7 @@
         <div class="calgary-contact-container">
           <h3>Contact Calgary Location</h3>
 
-          <form action="https://api.web3forms.com/submit" method="POST" class="calgary-contact-form">
+          <form action="https://api.web3forms.com/submit" method="POST" class="calgary-contact-form" id="calgary-contact-form">
             <input type="hidden" name="access_key" value="f64a19b8-f85a-4517-aeb0-64e3aa78e183">
         
             <!-- Optional: Can be type="hidden" or type="text" for subject -->
@@ -145,9 +145,6 @@
           
             <!-- Optional: From Name you want to see in the email Default is "Notifications". you can overwrite here -->
             <input type="hidden" name="from_name" value="LHMA Calgary">
-          
-            <!-- Optional: To send the form submission as CC email -->
-            <!-- <input type="hidden" name="ccemail" value="admin@littlehandsmontessoriacademy.com"> -->
         
             <input type="hidden" name="redirect" value="https://web3forms.com/success">
         
@@ -171,33 +168,15 @@
                 <textarea name="calgary-message" id="calgary-message" cols="30" rows="7" required></textarea>
               </li>
               <li>
+                <label for="calgary-captcha">Please enter 'LHMA' to verify:</label>
+                <input type="text" name="calgary-captcha" id="calgary-captcha" maxlength="4" minlength="4" size="4" placeholder="LHMA" required>
+              </li>
+              <li>
                 <input class="btn btn-primary" type="submit" value="Message Calgary">
               </li>
             </ul>
         
-        </form>
-
-          <!-- <form action="https://getform.io/f/0bbf7b2c-be60-4377-8883-ec56ac9775de" method="POST" class="calgary-contact-form">
-              <ul class="contact-form-ul">
-                <li>
-                  <label for="calgary-name">Name:</label>
-                  <input type="text" id="calgary-name" name="calgary-name" required>
-                </li>
-                <li>
-                  <label for="calgary-email">Email:</label>
-                  <input type="email" name="calgary-email" id="calgary-email" required>
-                </li>
-                <li>
-                  <label for="calgary-message">Comments/Message/Questions:</label>
-                </li>
-                <li>
-                  <textarea name="calgary-message" id="calgary-message" cols="30" rows="7"></textarea>
-                </li>
-                <li>
-                  <input class="btn btn-primary" type="submit" value="Message Calgary">
-                </li>
-              </ul>
-            </form> -->
+          </form>
         </div>
 
         <!-- End of Calgary Contact Form -->
@@ -206,7 +185,7 @@
         <div class="okotoks-contact-container">
           <h3>Contact Okotoks Location</h3>
 
-          <form action="https://api.web3forms.com/submit" method="POST" class="okotoks-contact-form">
+          <form action="https://api.web3forms.com/submit" method="POST" class="okotoks-contact-form" id="okotoks-contact-form">
             <input type="hidden" name="access_key" value="ffc73462-256e-47fb-b606-a681c181746c">
         
             <!-- Optional: Can be type="hidden" or type="text" for subject -->
@@ -214,9 +193,6 @@
           
             <!-- Optional: From Name you want to see in the email -->
             <input type="hidden" name="from_name" value="LHMA Okotoks">
-          
-            <!-- Optional: To send the form submission as CC email -->
-            <!-- <input type="hidden" name="ccemail" value="admin@littlehandsmontessoriacademy.com"> -->
         
             <input type="hidden" name="redirect" value="https://web3forms.com/success">
         
@@ -237,6 +213,10 @@
               </li>
               <li>
                 <textarea name="okotoks-message" id="okotoks-message" cols="30" rows="7"></textarea>
+              </li>
+              <li>
+                <label for="okotoks-captcha">Please enter 'LHMA' to verify:</label>
+                <input type="text" name="okotoks-captcha" id="okotoks-captcha" maxlength="4" minlength="4" size="4" placeholder="LHMA" required>
               </li>
               <li>
                 <input class="btn btn-primary" type="submit" value="Message Okotoks">
